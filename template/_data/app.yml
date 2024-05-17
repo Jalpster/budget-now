@@ -1,13 +1,12 @@
-name: Mobile App Name
-description: A super tagline for the mobile app
-full_description: 'A more complete description of the mobile app<br>
+name: BudgetNow
+description: Simple Budgeting Tool. Get your spending in order!
+full_description: 'BudgetNow is a simple budgeting tool that allows you to manually track income and expenses in custom budgeting categories. You can create as many transactions and budgets as you'd like, but your budgets will only reflect transactions for the current month.<br>
 <br>With a lot of features:
-<br>- Feature 1
-<br>- Feature 2
-<br>- Feature 3'
-android: https://telegra.ph/Replace-this-link-07-23
+<br>- Create unlimited custom budget categories
+<br>- Create unlimited transactions, and categorize each to a budget
+<br>- Review your current months spending
+<br>- And its 100% free!'
 iOS: https://telegra.ph/Replace-this-link-07-23
-web: https://telegra.ph/Replace-this-link-07-23
 screenshots:
   - 1.png
   - 2.png
