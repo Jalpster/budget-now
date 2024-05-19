@@ -24,23 +24,27 @@
 		<h1 class="page__title">Support</h1>
 	</header>
 	<div class="page__content">
-		<form name="support" netlify>
+		<form name="contact" method="POST" netlify>
 			<p>
-				<label>Name <input type="text" name="name" /></label>
+				<label>Your Name: <input type="text" name="name" /></label>
 			</p>
 			<p>
-				<label>Email <input type="email" name="email" /></label>
+				<label>Your Email: <input type="email" name="email" /></label>
 			</p>
 			<p>
-				<label>Content <input type="text" name="content" /></label>
+				<label>App Version: <select name="version[]" multiple>
+				<option value="release">Release</option>
+				<option value="beta">Beta</option>
+				</select></label>
 			</p>
 			<p>
-				<label>Image *Optional* <input type="image" name="image" /></label>
+				<label>Message: <textarea name="message"></textarea></label>
 			</p>
 			<p>
 				<button type="submit">Send</button>
 			</p>
 		</form>
+
 	</div>
 </article>
 
