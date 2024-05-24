@@ -27,8 +27,19 @@
 	<div class="page__content">
 		<form name="contact" method="POST" netlify>
 			<div class="mb-3">
-				<label for="exampleFormControlInput1" class="form-label">Email address</label>
-				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				<label for="user-name" class="form-label">Name</label>
+				<input type="text" class="form-control" id="user-name" placeholder="John Doe">
+			</div>
+			<div class="mb-3">
+				<label for="user-email" class="form-label">Email address</label>
+				<input type="email" class="form-control" id="user-email" placeholder="name@example.com">
+			</div>
+			<div class="mb-3">
+				<label for="app-version" class="form-label">App Version</label>
+				<select name="app-version" multiple="">
+					<option value="release">Release</option>
+					<option value="beta">Beta</option>
+				</select>			
 			</div>
 			<div class="mb-3">
 				<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
