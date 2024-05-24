@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" href="/assets/tobi.css" />
 	<link rel="stylesheet" href="/assets/style.css" />
+	<link rel="stylesheet" href="/assets/boostrap.min.css" />
 
 </head>
 	<body>
@@ -25,22 +26,14 @@
 	</header>
 	<div class="page__content">
 		<form name="contact" method="POST" netlify>
-			<p>
-				<label>Your Name: <input type="text" name="name" /></label>
-			</p>
-			<p>
-				<label>Your Email: <input type="email" name="email" /></label>
-			</p>
-			<p>
-				<label>App Version: <select name="version[]" multiple>
-				<option value="release">Release</option>
-				<option value="beta">Beta</option>
-				</select></label>
-			</p>
-			<p>
-				<label>Message: <textarea name="message"></textarea></label>
-			</p>
-			<p>
+			<div class="mb-3">
+				<label for="exampleFormControlInput1" class="form-label">Email address</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			</div>
+			<div class="mb-3">
+				<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
 				<button type="submit">Send</button>
 			</p>
 		</form>
@@ -72,6 +65,7 @@
 		</footer>
 
 		<script type="text/javascript" src="../assets/tobi.min.js" /></script>
+		<script type="text/javascript" src="../assets/bootstrap.min.js" /></script>
 		<script>
 			window.onload = function () {
 				var tobi = new Tobi();

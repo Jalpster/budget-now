@@ -9,3 +9,4 @@ yarn-error.log
 .idea
 .jekyll-cache
 website/.DS_Store
+.DS_Store
